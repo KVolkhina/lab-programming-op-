@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() 
-{  //Подключение кириллицы и ввод целого числа
+{ //Подключение кириллицы и ввод целого числа
     setlocale(LC_ALL, ".UTF8");
     int number;
     std::cout << "Введите число: ";
