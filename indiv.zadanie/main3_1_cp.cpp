@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
-//Объявление функции (округление до одного знака после запятой)
+  //Объявление функции (округление до одного знака после запятой)
 double round_to_1_decimal(double x)
 {
     return std::round(x * 10.0) / 10.0;
