@@ -4,7 +4,7 @@
 #include <cctype>
 #include <clocale>
 #include <windows.h>
-//Вводим команду, что бы не писать кадждый раз std::
+  //Вводим команду, что бы не писать кадждый раз std::
 using namespace std;
 
 int charToVal(char ch)
@@ -22,7 +22,7 @@ char valToChar(int v)
     if (v >= 0 && v < 16) return c[v];
     return '?'; 
 }
-//Перевод строки v из системы b1 в систему b2
+  //Перевод строки v из системы b1 в систему b2
 string conv_int(string v, int b1, int b2) 
 {
     setlocale(LC_ALL, ".UTF8");
